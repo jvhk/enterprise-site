@@ -5,7 +5,7 @@
 body{
     background-color: #d2d2c1;
     font:16px Arial, Helvetica, sans-serif;
-    padding-left: 180px;
+    /*padding-left: 180px;*/
 }
 
 #principal{
@@ -14,7 +14,8 @@ body{
     width: 957px;
     height: 550px;
     align-items: center;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #enterprise{
@@ -30,7 +31,9 @@ body{
     border-bottom-right-radius: 5px;
     margin-top: 0;
     width: 730px;
-    margin-left: 0.5%;
+    /*margin-left: 0.5%;*/
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 3px 4px darkgray;
 }
 
@@ -54,13 +57,16 @@ a{
     width: 700px;
     height: 388px;
     margin-top: 40px;
-    margin-left: 14px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contato h1{
     text-align: center;
     padding: 10px;
     color: white;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h3{
@@ -141,25 +147,46 @@ input{
     background-color: #ffffff;
     width: 100px;
     height: 30px;
-    margin-left: 28%;
+    /*margin-left: 28%;*/
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
     font-size: 80%;
 }
 
 textarea{
+    display: inline-block;
     width: 540px;
     height: 102px;
     border-radius: 10px;
     font-size: 20px;
     background-color: white;
     border-style: none;
-    margin-left: 28%;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.txtarea{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    align-items: center;
+    width: 540px;
+    height: 102px;
+}
+
 
 #textmsg{
     margin-left: 21%;
     margin-top: 2%;
     margin-bottom: 1%;
     text-align: center;
+}
+
+#botaoCenter{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
