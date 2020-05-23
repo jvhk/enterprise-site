@@ -5,11 +5,9 @@
 body{
     background-color: #d2d2c1;
     font:16px Arial, Helvetica, sans-serif;
-    /*padding-left: 180px;*/
 }
 
 #principal{
-    /*border: 1px solid red;*/
     position: relative;
     width: 957px;
     height: 550px;
@@ -31,7 +29,6 @@ body{
     border-bottom-right-radius: 5px;
     margin-top: 0;
     width: 730px;
-    /*margin-left: 0.5%;*/
     margin-left: auto;
     margin-right: auto;
     box-shadow: 3px 4px darkgray;
@@ -147,7 +144,6 @@ input{
     background-color: #ffffff;
     width: 100px;
     height: 30px;
-    /*margin-left: 28%;*/
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
